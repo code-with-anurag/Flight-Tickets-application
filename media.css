@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* -------------Responsive at 1200px-------------- */
+
+@media(max-width:1200px){
+    .container{
+        height:auto;
+        width:100%;
+    }
+    .header{
+        height:60px;
+        width:100%;
+    }
+    .header-div-1{
+        height:100%;
+        width:70%;
+    }
+    .Jetcost{
+        width:26%
+    }
+    .header-ul{
+        width:40%;
+    }
+    .header-ul li{
+        width:35%;
+    }
+    .navbar{
+       padding-bottom:150px;
+    }
+    .article{
+      position:relative;
+      bottom:130px;
+    }
+    .block1 span{
+      font-size:14px ;
+    }
+    .block2{
+      flex-wrap:wrap;
+    }
+    .box{
+      width:45%;
+    }
+    .box2{
+      display:none;
+    }
+    .box1{
+      width:48%;
+    }
+    .box3{
+      width:48%;
+    }
+    .box4{
+      width:48%;
+    }
+    .box5{
+      width:48%;
+    }
+    .box6{
+      width:48%;
+      
+    }
+    .box5{
+      display:flex;
+      justify-content: space-between;
+      padding-inline:10px;
+    }
+    .section-1{
+      margin-top:130px;
+    }
+    .card{
+      height:260px;
+      width:35%;
+    }
+    .row{
+      height:70px;
+      padding-top:5px;
+    }
+    .airlines{
+      display:none;
+    }
+    .side-left{
+      display:flex;
+      flex-direction: column;
+    }
+    .side-right{
+       display:flex;
+       flex-direction: column;
+    }
+    .side-left-sm{
+      display:flex;
+      flex-direction: column;
+    }
+    .side-right-sm{
+      display:flex;
+      flex-direction:column;
+    }
+    .ls-box{
+      width:88%;
+    }
+
+}
+
+/* ----------------Responsive at 1024px ----------------- */
+   
+   @media(max-width:1024px){
+     .header{
+        height:60px;
+        width:100%;
+     }
+     .header-div1{
+        width:45%;
+        display:flex;
+        justify-content: space-between;
+        padding-inline:20px;
+     }
+     .Jetcost{
+        width:35%;
+        font-size: 0.6rem;
+     }
+     .header-ul{
+        width:75%;
+       
+     }
+     .header-ul li{
+        width:35%;
+     }
+     .header-div2{
+        width:30%;
+     }
+     .unorder-list{
+        display:flex;
+        justify-content:center;
+    }
+    .block1{
+       width:25%;
+    }
+     .box6{
+      width:100%;
+     }
+     .card4{
+      display:none;
+     }
+     .card{
+      width:40%;
+      height:200px;
+     }
+     .card1 h4{
+      padding-block:8px;
+     }
+     .section-3{
+      height:auto;
+      width:100%;
+     
+     }
+     .smallcontainer{
+      height:auto;
+      width:80%;
+     
+      }
+      .row{
+         height:auto;
+         width:100%;
+       
+         display:flex;
+         flex-direction:column;
+      }
+      .city{
+         width:100%;
+      }
+      .right-side img{
+         width:100%;
+      }
+      .routes{
+         width:28%;
+      }
+      .last-box{
+         display:flex;
+         flex-direction:column;
+      }
+      .ls-box{
+         width:100%;
+      }
+      .lastbox-left{
+         width:55%;
+      }
+      .lastbox-right{
+         width:100%;
+         margin-top:20px;
+      }
+      .para-appearance{
+         width:100%;
+      }
+      .divlight{
+         width:100%;
+      }
+     
+    /* --------------Responsive at 768px ------------------ */
+   }
+   @media(max-width:768px){
+       
+    .header-ul{
+        display:none;
+     }
+     .header-div2{
+        display:none;
+     }
+     .bar-btn{
+        display:inline;
+     } 
+     .Jetcost{
+        width:60%;
+     }
+     .Jetcost h1{
+        font-size: 1.3rem;
+     }
+     .bar-btn{
+        height:auto;
+        width:auto;
+        padding-inline:10px;
+        font: 2rem;
+     }
+     .bar-btn i{
+        font-size:1.5rem;
+     }
+     .navbar{
+      padding-bottom:300px;
+     }
+    .navbar h2{
+       width:100%;
+       padding-inline:10px;
+     }
+     .article{
+      width:97%;
+      position:relative;
+      bottom:285px;
+     }
+     
+     .block-2{
+      padding-inline:10px;
+     }
+     .box{
+      width:100%;
+     }
+     .section-1{
+      margin-top:240px;
+     }
+     .smallbox{
+      width:100%;
+      padding-inline:10px;
+     }
+     .card{
+      height:240px;
+     }
+     .image-block{
+      width:95%;
+     }
+     .main-destination h2{
+      width:100%;
+      padding-inline:20px;
+     }
+     .smallcontainer{
+      width:100%;
+      padding-inline:15px;
+     }
+     .flights h2{
+      width:100%;
+      padding-inline:20px;
+     }
+     .left-side{
+      width:100%;
+     }
+      .right-side-image{
+         display:none;
+      }
+      .section4-div{
+         width:95%;
+         padding-block:20px;
+      }
+      .left-side-text{
+         width:100%;
+      }
+      .left-side{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction:column;
+      }
+      .sec4{
+         width:100%;
+         display:flex;
+         justify-content: center;
+         align-items:center;
+      }
+      .sec4 span img{
+         width:100%;
+      }
+      .sec4 span{
+         display:flex;
+         justify-content: center;
+      }
+      .left-side h1{
+         font-size:1.8rem;
+      }
+      .secblock{
+         width:100%;
+         padding-inline:20px;
+      }
+      .rectangle-box{
+         width:95%;
+         display:flex;
+         flex-direction:column;
+      }
+      .ls-box{
+         width:100%;
+         display:flex;
+         flex-direction:column;
+         justify-content: start;
+      }
+      .lastbox-left{
+         width:100%;
+      }
+      .last-box{
+         width:95%;
+      }
+      
+}
+   
+   /* -----------------Responsive at 480px ---------------------- */
+
+   @media (max-width:480px){
+    .Jetcost{
+        height:55%;
+        width:75%;
+    }
+    
+   }
+
+   @media(max-width:430px){
+    .Jetcost h1{
+      font-size:1rem;
+    }
+   }
+   @media(max-width:560px){
+      .block1{
+         width:35%;
+      }
+      .card3{
+         display:none;
+      }
+      .card{
+         width:50%;
+      }
+   }
+   @media(max-width:372px){
+       .block1{
+         width:50%;
+       }
+   }
+
+   @media(max-width:1350px){
+      .right-part{
+         display:none;
+      }
+      .left-part{
+         width:100%;
+         
+      }
+   }
+   @media(max-width:668px){
+      .column2{
+         display:none;
+      }
+      .column1{
+         width:100%;
+      }
+   }
+   @media(max-width:1324px){
+      #most{
+         width:30%;
+      }
+   }
+   @media(max-width:636px){
+      .routes{
+         width:100%;
+      }
+   }
+  
+      
+      
+      
+
+   
